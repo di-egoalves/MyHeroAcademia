@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Hero Academia - Seleção de Personagem</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/CSS/reset.css" />
+    <link rel="stylesheet" href="./src/CSS/estilos.css" />
+    <link rel="stylesheet" href="./src/CSS/responsivo.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="icon" type="image/png" href="/src/imagens/favicon.png" />
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <div class="fundo-personagem"></div>
+      <audio style="width: 100%" controls autoplay>
+        <source src="./src/audio/audio.mp3" type="audio/mp3" />
+        Seu navegador não suporta o elemento de áudio.
+      </audio>
+
+      <div class="loading">
+        <img
+          class="logo"
+          src="./src/imagens/Loading.gif"
+          alt="Logo-MyHeroAcademia"
+        />
+      </div>
+      <div class="logo-container">
+        <img
+          class="logo"
+          src="./src/imagens/My-Hero-Academia-Logo.png"
+          alt="Logo-MyHeroAcademia"
+        />
+      </div>
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="./src/imagens/allmight.png"
+          alt="Personagem selecionado"
+        />
+
+        <div class="informacoes-personagem">
+          <h1 class="nome-personagem" id="nome-personagem">All Might</h1>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Um herói lendário conhecido por sua força inigualável e
+            personalidade inspiradora. É mentor e ídolo de Midoriya.
+          </p>
+        </div>
+      </section>
+      <section class="personagens">
+        <h1 class="titulo">Escolha um personagem</h1>
+        <ul class="lista-de-personagens">
+          <li
+            class="personagem selecionado"
+            id="allmight"
+            data-name="All Might"
+            data-descripton="Um herói lendário conhecido por sua força inigualável e personalidade inspiradora. É mentor e ídolo de Midoriya."
+          >
+            <img
+              src="./src/imagens/thumbnailAllmight.png"
+              alt="Personagem All Might"
+            />
+          </li>
+          <li
+            class="personagem"
+            id="deku"
+            data-name="Izuku Midoriya"
+            data-descripton="Também conhecido como Deku, é um jovem determinado que sonha em se tornar um herói como seu ídolo All Might."
+          >
+            <img
+              src="./src/imagens/thumbnailDeku.png"
+              alt="Personagem Jean Grey"
+            />
+          </li>
+          <li
+            class="personagem"
+            id="bakugo"
+            data-name="Katsuki Bakugo"
+            data-descripton="Tem um domínio excepcional sobre seus poderes explosivos. Personalidade forte e competitiva, rival de Midoriya desde a infância."
+          >
+            <img
+              src="./src/imagens/thumbnailBakugo.png"
+              alt="Personagem Lince Negra"
+            />
+          </li>
+          <li
+            class="personagem"
+            id="todoroki"
+            data-name="Shoto Todoroki"
+            data-descripton="Domina o poder de gelo e fogo, mas luta para controlar suas emoções e sua relação complicada com seu pai."
+          >
+            <img
+              src="./src/imagens/thumbnailTodoroki.png"
+              alt="Personagem Tempestade"
+            />
+          </li>
+          <li
+            class="personagem"
+            id="kirishima"
+            data-name="Eijiro Kirishima"
+            data-descripton="Conhecido por sua personalidade alegre e sua habilidade de endurecer seu corpo como uma rocha. Leal aos seus companheiros."
+          >
+            <img
+              src="./src/imagens/thumbnailKirishima.png"
+              alt="Personagem Vampira"
+            />
+          </li>
+          <li
+            class="personagem"
+            id="kaminari"
+            data-name="Denki Kaminari"
+            data-descripton="Sua personalidade alegre e seu poder elétrico. No entanto, ele luta para controlar seu poder elétrico em momentos críticos."
+          >
+            <img
+              src="./src/imagens/thumbnailKaminari.png"
+              alt="Personagem Wolverine"
+            />
+          </li>
+        </ul>
+      </section>
+    </main>
+    <section class="footer">
+      <div class="social">
+        <a
+          href="https://wa.me/85991502939/?text=Ol%C3%A1,%20vi%20seu%20projeto%20e%20gostaria%20de%20falar%20com%20voc%C3%AA."
+          target="_blank"
+          ><i class="fab fa-whatsapp"></i
+        ></a>
+        <a href="https://www.instagram.com/d.iegoalves/" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/di-ego/" target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://www.behance.net/di-ego" target="_blank"
+          ><i class="fab fa-behance"></i
+        ></a>
+        <p class="copyright">Desenvolvido por: Diego Alves</p>
+      </div>
+    </section>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+
+* { /* aqui no css estiliza com a classe caso o titulo, mas ele substituiu por *(asterisco) para estilizar todas as classe e ficar mais rápido para escrever o código*/ 
+margin:0;/*espaçamento externo dos elementos*/
+padding:0; /*espaçamento interno dos elementos*/
+box-sizing: border-box;
+
+}
+
+ul {
+    list-style: none;
+}
