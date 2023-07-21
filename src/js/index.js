@@ -60,3 +60,14 @@ personagensbg.forEach((personagem) => {
     alterarImagemFundoPersonagem(personagem);
   });
 });
+
+personagens.forEach(personagem => {
+  const audio = document.querySelector('audio');
+  const nomePersonagem = personagem.id;
+  const audioSrc = `./src/audio/${nomePersonagem}.mp3`;
+
+  personagem.addEventListener('mouseover', () => {
+    audio.src = audioSrc;
+    audio.play();
+  });
+});
