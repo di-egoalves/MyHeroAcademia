@@ -1,7 +1,7 @@
 # My Hero Academia - HTML - CSS - Javascript 
 
 ## 📷 Screenshot
-[![Screenshot](github.com/di-egoalves/MyHeroAcademia/blob/di-egoalves/screenshot.jpg?raw=true "Screenshot")](github.com/di-egoalves/MyHeroAcademia/blob/di-egoalves/screenshot.jpg?raw=true "Screenshot")
+[![Screenshot](https://github.com/di-egoalves/MyHeroAcademia/blob/di-egoalves/screenshot.jpg?raw=true "Screenshot")](https://github.com/di-egoalves/MyHeroAcademia/blob/di-egoalves/screenshot.jpg?raw=true "Screenshot")
 
 ## 📝 Descrição do projeto
 Este projeto é inspirado na série de anime e mangá "My Hero Academia". Nele, você poderá selecionar diferentes personagens ao passar o mouse sobre suas imagens. Além disso, o fundo da imagem será alterado de acordo com a seleção e será reproduzida a voz característica de cada personagem.
