@@ -17,7 +17,7 @@ Este projeto é inspirado na série de anime e mangá "My Hero Academia". Nele, 
 - CSS: Para estilizar os elementos visuais e criar transições suaves durante a seleção do personagem.
 
 ## 📌 Links 
- - [Deploy](myheroaca.netlify.app)
+ - [Deploy](https://myheroaca.netlify.app)
 
 ## 📊 Status do projeto
 ✅ Concluído
